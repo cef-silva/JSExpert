@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../img/background.png") fixed no-repeat;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin-top: 20px;
+    font-size: 34px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.formulario .textinput {
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 20px;
+    height: 40px;
+    font-size: medium;
+}
+
+.formulario button {
+    margin-top: 5px;
+    width: 100%;
+    background: #047CFC;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    height: 40px;
+}
+
+.formulario h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 27px;
+}
+
+.formulario .checkbox {
+    margin-top: 5px;
+}
